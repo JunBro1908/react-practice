@@ -1,0 +1,40 @@
+.movie_detail {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+.movie_background {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.movie_info {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.movie_cover {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.more_info {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.more-info:hover {
+  background-color: #f62134;
+}
