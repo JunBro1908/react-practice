@@ -9,7 +9,7 @@ function Movie({ id, img, genres = [], title, score, content }) {
     <div className={styles.item} key={id}>
       <img className={styles.image} src={img} alt={title} />
       <div className={styles.info}>
-        <Link to={`/detail/${id}`} className={styles.title}>
+        <Link to={`/movie/${id}`} className={styles.title}>
           {title}
         </Link>
         <p className={styles.genres}>{genres.join(", ")}</p>

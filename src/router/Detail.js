@@ -4,6 +4,7 @@ import styles from "../css/Detail.module.css";
 
 function Detail() {
   const { id } = useParams();
+  console.log(id);
   const [movieData, setMovie] = useState({});
 
   useEffect(() => {
